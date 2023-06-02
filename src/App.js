@@ -1,23 +1,17 @@
-import logo from './logo.svg';
-import './App.css';
+import Finder from "./components/Finder";
+import Info from "./components/Info"
+import { DataContext, dataApi } from "./context/Context";
+import { useState } from "react";
 
 function App() {
+  const [state, setState] = useState(dataApi)
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="h-screen bg-gradient-to-l from-amber-300 to-amber-800">
+      <DataContext.Provider value={{state, setState}}>
+        <Finder />
+        <Info />
+      </DataContext.Provider>
     </div>
   );
 }
