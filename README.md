@@ -1,4 +1,4 @@
-# Lista de Tarefas
+# Buscador de CEP
 
 [![NPM](https://img.shields.io/npm/l/react)](https://github.com/GabrielAlbertin/CEP-Finder/blob/main/LICENCE)
 
