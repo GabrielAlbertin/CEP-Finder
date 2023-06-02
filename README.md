@@ -15,7 +15,7 @@ O sistema tem como objetivo principal funcionar como uma lista gerenciadora de t
 ## Front end
 - HTML / CSS / JavaScript
 - React.js
-- -Tailwindcss
+- Tailwindcss
 
 # Como executar o projeto
 ## Front end web
