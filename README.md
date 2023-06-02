@@ -1,20 +1,21 @@
 # Lista de Tarefas
 
-[![NPM](https://img.shields.io/npm/l/react)](https://github.com/GabrielAlbertin/Todo/blob/master/LICENCE)
+[![NPM](https://img.shields.io/npm/l/react)](https://github.com/GabrielAlbertin/CEP-Finder/blob/main/LICENCE)
 
 # Sobre o projeto
 
-https://gas-todo.netlify.app/
+https://gas-cep-finder.netlify.app/
 
 O sistema tem como objetivo principal funcionar como uma lista gerenciadora de tarefas, permitindo a adição, conclusão, remoção e edição de tarefas de forma simples e prática.
 
 ## Layout
-![Layout](https://github.com/GabrielAlbertin/Todo/blob/master/src/assets/todo.png)
+![Layout](https://github.com/GabrielAlbertin/CEP-Finder/blob/main/src/assets/cep.png)
 
 # Tecnologias utilizadas
 ## Front end
 - HTML / CSS / JavaScript
 - React.js
+- -Tailwindcss
 
 # Como executar o projeto
 ## Front end web
@@ -25,7 +26,7 @@ Pré-requisito: npm / yarm
 git clone https://github.com/GabrielAlbertin/CEP-FInder
 
 # entrar na pasta do projeto front end
-cd Todo
+cd CEP-FInder
 
 # instalar depedências
 npm install
