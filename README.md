@@ -6,7 +6,7 @@
 
 https://gas-cep-finder.netlify.app/
 
-O sistema foi concebido com a finalidade de efetuar diligentes buscas de informações, mediante o fornecimento do código de endereçamento postal (CEP), resultando na obtenção precisa de dados tais como cidade, estado federativo, nome da via pública, complemento, bairro e código de discagem direta (DDD). Entretanto, devido à natureza abrangente e, por vezes, lacônica de certos CEPs, que não proporcionam detalhes suficientes para suprir todas as informações supracitadas, o sistema notificará o usuário com a elucidativa mensagem "Sem informação".
+O sistema foi concebido com a finalidade de efetuar buscas de informações, mediante o fornecimento do código de endereçamento postal (CEP), resultando na obtenção precisa de dados tais como cidade, estado federativo, nome da via pública, complemento, bairro e código de discagem direta (DDD). Entretanto, devido à natureza abrangente e, por vezes, lacônica de certos CEPs, que não proporcionam detalhes suficientes para suprir todas as informações supracitadas, o sistema notificará o usuário com a elucidativa mensagem "Sem informação".
 
 ## Layout
 ![Layout](https://github.com/GabrielAlbertin/CEP-Finder/blob/main/src/assets/cep.png)
