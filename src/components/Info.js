@@ -7,7 +7,7 @@ const Info = () => {
   return (
     <>
     {contextApi.state.data ?  
-      contextApi.state.data.cep === '' ?
+      contextApi.state.data.cep !== '' ?
         (
           <div className='flex justify-center align-center'>
             <div className='py-16 px-16 m-6 bg-white shadow-md rounded-xl text-left'>

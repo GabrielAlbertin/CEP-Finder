@@ -12,9 +12,7 @@ const Finder = () => {
 
   const FindCEP = () => {
     axios(url).then((data) => {
-      console.log(data.data)
       contextApi.setState({data: data.data})
-      console.log(contextApi.state)
     })
     .catch(
       console.error
