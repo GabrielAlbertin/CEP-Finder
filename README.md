@@ -15,6 +15,7 @@ O sistema foi concebido com a finalidade de efetuar buscas de informações, med
 ## Front end
 - HTML / CSS / JavaScript
 - React.js
+- Axios
 - Tailwindcss
 
 # Como executar o projeto
